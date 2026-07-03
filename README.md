@@ -46,12 +46,3 @@ src/
   main.jsx           BrowserRouter setup
 ```
 
-### Adding a new case study
-
-1. Add the project to the `projects` array in `src/data/profile.js` with a unique `slug`.
-2. Create `src/pages/case-studies/YourProject.jsx`, importing `CaseStudyLayout`
-   and `CaseStudySection`, following the pattern of the existing files.
-3. Register the route in `src/App.jsx`.
-
-`ProjectCard` automatically links to `/work/{slug}`, so no changes are needed
-on the homepage once the route exists.
