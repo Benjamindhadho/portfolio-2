@@ -1,4 +1,4 @@
-# Sinan Tokmak — Portfolio (Modern variant)
+# Ben Portfolio
 
 Dark, glassmorphic, gradient-accented (violet → cyan) portfolio using
 Inter + Space Grotesk, built with React Router so each project on the
