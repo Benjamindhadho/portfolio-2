@@ -46,3 +46,8 @@ src/
   main.jsx           BrowserRouter setup
 ```
 
+
+git add .
+git commit -m "Updated website"
+git push origin main
+npm run deploy

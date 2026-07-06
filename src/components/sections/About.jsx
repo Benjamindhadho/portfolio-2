@@ -3,6 +3,7 @@ import SectionLabel from "../common/SectionLabel";
 import GlassCard from "../ui/GlassCard";
 import { profile } from "../../data/profile";
 import { MailIcon, MapPinIcon, BriefcaseIcon, LinkIcon } from "../common/Icons";
+import ProfilePhoto2 from "../../public/ProfilePhoto2.jpg";
 
 const DETAILS = [
   { Icon: MailIcon, text: profile.email },
@@ -22,7 +23,7 @@ export default function About() {
             <div className="relative">
               <div className="absolute -inset-2 rounded-[2rem] bg-gradient-to-br from-violet-500/30 to-cyan-400/20 blur-xl" />
               <img
-                src="/ProfilePhoto2.jpg"
+                src={ProfilePhoto2.jpg}
                 alt={`Portrait of ${profile.name}`}
                 className="relative w-56 h-56 sm:w-72 sm:h-72 rounded-[2rem] object-cover border border-white/10"
               />
